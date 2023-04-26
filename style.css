@@ -13,6 +13,8 @@ body{
 }
 .block-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .calendar-header{
     padding: 20px 20px;
@@ -67,16 +69,31 @@ body{
     width: 400px;
     background-color: rgba(248, 248, 248, 50%);
 }
-
 .list-day-text{
     margin-top: 30px;
     margin-left: 30px;
     font-weight: 300;
     font-size: 25px;
-    color: rgb(236, 59, 71);;
+    color: rgb(236, 59, 71);
 }
 .list-header{
     margin-left: 30px;
     font-weight: 700;
     font-size:40px;
+}
+.amount-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(236, 59, 71);
+}
+
+.list-amount-text{
+  
+    font-weight: 500;
+    font-size: 22px;
 }
